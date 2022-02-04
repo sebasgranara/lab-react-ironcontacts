@@ -1,7 +1,7 @@
 import contactsJSON from "./contacts.json";
 import "./App.css";
 import { useState } from "react";
-import trophy from "./trophy.png";
+import trophy from "./logo.svg";
 
 function App() {
   const [contacts, setContacts] = useState(contactsJSON.slice(0, 5));
